@@ -1,0 +1,87 @@
+.modal {
+    width: 450px;
+    height: 400px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+   
+  }
+  
+  .control-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .select {
+    margin-right: 10px;
+    padding: 12px; 
+    font-size: 16px; 
+  }
+  
+  .small-select {
+    width: 88px;
+    margin-left: 10px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    
+  }
+  
+  .input {
+    padding: 12px;
+    font-size: 16px; 
+  }
+  
+  .small-input {
+    margin-left: 10px;
+    
+    width: 202px;
+  }
+  
+ 
+  
+  .date-selector {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    
+
+  }
+  .date-select { 
+   
+    padding-right:24px;
+  }
+  .day {
+    margin-left: 10px;
+    
+  }
+  .month {
+    margin-left: 10px;
+    
+  }
+  .year {
+    margin-left: 10px;
+  
+  }
+
+  .delete-button {
+    margin-left: 10px;
+  }
+
+  .save-button {
+    margin-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    align-self:center;
+  }
+
+  .button-dialog {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
